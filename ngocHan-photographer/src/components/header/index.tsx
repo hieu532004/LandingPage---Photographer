@@ -39,19 +39,19 @@ export const Headers = () => {
                     </button>
                 </div>
                 <nav className={`lg:flex space-x-8 font-jura font-semibold ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
-                    <a href='#' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Bộ sưu tầm</a>
-                    <a href='#' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Giới thiệu</a>
-                    <a href='#' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Dịch vụ</a>
-                    <a href='#' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Liên hệ</a>
+                    <a href='#collection' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Bộ sưu tầm</a>
+                    <a href='#about' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Giới thiệu</a>
+                    <a href='#service' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Dịch vụ</a>
+                    <a href='#contact' className='text-sm text-white hover:text-gray-300' onClick={closeMenu}>Liên hệ</a>
                 </nav>
             </div>
             {isMenuOpen && (
                 <div className='lg:hidden fixed top-0 left-0 w-full h-full text-white bg-black bg-opacity-80 z-10'>
                     <nav className='flex flex-col items-center justify-center h-full space-y-8 font-semibold'>
-                        <a href='#' className='text-lg hover:text-gray-300' onClick={closeMenu}>Bộ sưu tầm</a>
-                        <a href='#' className='text-lg hover:text-gray-300' onClick={closeMenu}>Giới thiệu</a>
-                        <a href='#' className='text-lg hover:text-gray-300' onClick={closeMenu}>Dịch vụ</a>
-                        <a href='#' className='text-lg hover:text-gray-300' onClick={closeMenu}>Liên hệ</a>
+                        <a href='#collection' className='text-lg hover:text-gray-300' onClick={closeMenu}>Bộ sưu tầm</a>
+                        <a href='#about' className='text-lg hover:text-gray-300' onClick={closeMenu}>Giới thiệu</a>
+                        <a href='#service' className='text-lg hover:text-gray-300' onClick={closeMenu}>Dịch vụ</a>
+                        <a href='#contact' className='text-lg hover:text-gray-300' onClick={closeMenu}>Liên hệ</a>
                     </nav>
                 </div>
             )}

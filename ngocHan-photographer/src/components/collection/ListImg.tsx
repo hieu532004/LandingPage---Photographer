@@ -21,7 +21,7 @@ const ListImg: React.FC = () => {
     return (
         <>
             {/* Grid Layout */}
-            <div className='text-center mt-2 font-pacifico text-2xl text-white'>
+            <div id='collection' className='text-center mt-2 font-pacifico text-2xl text-white ' >
                 <h1>Bộ sưu tầm</h1>
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 p-4 ">

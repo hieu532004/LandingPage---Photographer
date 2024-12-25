@@ -30,7 +30,7 @@ const Services: React.FC = () => {
     ];
 
     return (
-        <div className="relative flex justify-center items-center ">
+        <div id="service" className="relative flex justify-center items-center ">
             {/* Button to open modal */}
             <button
                 onClick={openModal}

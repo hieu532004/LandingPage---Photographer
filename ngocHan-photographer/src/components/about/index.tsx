@@ -8,7 +8,7 @@ const About: React.FC = () => {
     const closeIntro = () => setIsIntroOpen(false);
 
     return (
-        <div className="relative flex justify-center items-center py-2">
+        <div id="about" className="relative flex justify-center items-center py-2" >
             {/* Button to open the intro modal */}
             <button
                 onClick={openIntro}

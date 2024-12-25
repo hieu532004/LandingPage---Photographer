@@ -8,7 +8,7 @@ const ContactForm: React.FC = () => {
     const closeContact = () => setIsContactOpen(false);
 
     return (
-        <div className="relative flex justify-center items-center py-2">
+        <div id="contact" className="relative flex justify-center items-center py-2">
             {/* Nút mở modal */}
             <button
                 onClick={openContact}
