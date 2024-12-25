@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Logs } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export const Headers = () => {
     const [isFixed, setIsFixed] = useState(false);
