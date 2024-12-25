@@ -11,7 +11,7 @@ body {
 
 body::before {
     content: "";
-    background: url('https://bna.1cdn.vn/2019/02/21/uploaded-mydungbna-2019_02_21-_15.jpg') no-repeat center center fixed;
+    /* background: url('https://bna.1cdn.vn/2019/02/21/uploaded-mydungbna-2019_02_21-_15.jpg') no-repeat center center fixed; */
     background-size: cover;
     opacity: 0.8;
     /* Adjust the opacity value as needed */
