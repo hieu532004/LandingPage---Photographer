@@ -35,7 +35,7 @@ export const Headers = () => {
                 <div className='text-2xl font-pacifico'></div>
                 <div className='lg:hidden'>
                     <button onClick={toggleMenu} className='text-xl'>
-                        {isMenuOpen ? <X /> : <Menu color='white' />}
+                        {isMenuOpen ? <X /> : <Menu color='white' active:scale-95 />}
                     </button>
                 </div>
                 <nav className={`lg:flex space-x-8 font-jura font-semibold ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>

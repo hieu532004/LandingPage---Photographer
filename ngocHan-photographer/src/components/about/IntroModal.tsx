@@ -14,7 +14,7 @@ const IntroModal: React.FC<IntroModalProps> = ({ isOpen, onClose }) => {
                 {/* Close Button */}
                 <button
                     onClick={onClose}
-                    className="absolute top-4 right-4 bg-gray-100 p-2 rounded-full shadow hover:bg-gray-200"
+                    className="absolute top-4 right-4 bg-gray-100 p-2 rounded-full shadow hover:bg-gray-200 active:scale-95"
                 >
                     ✕
                 </button>

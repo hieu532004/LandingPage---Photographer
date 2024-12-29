@@ -12,7 +12,7 @@ const ContactForm: React.FC = () => {
             {/* Nút mở modal */}
             <button
                 onClick={openContact}
-                className="bg-gray-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-600 font-jura font-bold"
+                className="bg-gray-500 text-white px-8 py-3 rounded-lg shadow-lg hover:bg-gray-600 font-jura font-bold active:scale-95"
             >
                 Liên hệ với chúng tôi
             </button>

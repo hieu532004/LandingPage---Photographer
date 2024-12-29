@@ -51,7 +51,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                 {/* Nút đóng */}
                 <button
                     onClick={onClose}
-                    className="absolute top-4 right-4 bg-gray-100 p-2 rounded-full shadow hover:bg-gray-200"
+                    className="absolute top-4 right-4 bg-gray-100 p-2 rounded-full shadow hover:bg-gray-200 active:scale-95"
                 >
                     ✕
                 </button>
@@ -101,7 +101,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                         </select>
                         <button
                             type="submit"
-                            className="w-full bg-gray-400 text-white py-3 rounded-lg hover:bg-gray-500"
+                            className="w-full bg-red-400 text-white py-3 rounded-lg hover:bg-red-500"
                         >
                             Gửi thông tin
                         </button>

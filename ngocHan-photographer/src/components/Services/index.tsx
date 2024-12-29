@@ -34,14 +34,14 @@ const Services: React.FC = () => {
             {/* Button to open modal */}
             <button
                 onClick={openModal}
-                className="bg-gray-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-600 font-jura font-bold"
+                className="bg-gray-500 text-white px-16 py-3 rounded-lg shadow-lg hover:bg-gray-600 font-jura font-bold active:scale-95"
             >
                 Xem dịch vụ
             </button>
 
             {/* Modal */}
             <Modal isOpen={isModalOpen} onClose={closeModal}>
-                <h1 className="text-3xl font-bold mb-4 text-center font-jura">Dịch vụvụ</h1>
+                <h1 className="text-3xl font-bold mb-4 text-center font-jura">Dịch vụ</h1>
                 {services.map((service, index) => (
                     <Card
                         key={index}

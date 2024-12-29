@@ -32,13 +32,13 @@ export const SlideShow = () => {
             />
             <button
                 onClick={prevSlide}
-                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded-full hover:bg-stone-400 focus:outline-none ml-2 sm:ml-4 lg:ml-6"
+                className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-400 text-white p-1 rounded-full hover:bg-gray-500 focus:outline-none ml-2 sm:ml-4 lg:ml-6"
             >
                 <ChevronLeft />
             </button>
             <button
                 onClick={nextSlide}
-                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded-full hover:bg-gray-400 focus:outline-none mr-2 sm:mr-4 lg:mr-6"
+                className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-400 text-white p-1 rounded-full hover:bg-gray-500 focus:outline-none mr-2 sm:mr-4 lg:mr-6"
             >
                 <ChevronRight />
             </button>
